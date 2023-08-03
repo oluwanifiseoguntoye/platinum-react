@@ -1,0 +1,19 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    color: #DF5479;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 90;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+
+  

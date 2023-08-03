@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 60px;
+    padding: 40px;
+    padding-right: 0px;
+  }
+
+  .logo img {
+    max-height: 100%; 
+    max-width: 100%; 
+    height: 250px;
+    width: 250px;
+  }
+
+  @media (max-width: 480px) {
+    .navbar {
+      padding-right: 10px
+    }
+  }

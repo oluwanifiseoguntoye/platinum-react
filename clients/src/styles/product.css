@@ -1,0 +1,86 @@
+.productDetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.productImage {
+    flex: 1 1 40%;
+    position: relative;
+}
+
+.productImage img {
+    height: 400px;
+    width: 400px;
+    display: block;
+    padding-left: 50px;
+    position: relative;
+}
+
+.productInfo {
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: #ECDC84;
+}
+
+.productInfo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.productInfo p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.productSmallerInfo {
+    color: red;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.productSmallerInfo li {
+    margin-bottom: 20px;
+}
+
+.productNormalInfo  {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Alfa Slab One', cursive;
+    border: none;
+    background-color: #0D1346;
+    border: none;
+    color: white;
+  }
+
+@media screen and (max-width: 768px) {
+    .productDetail {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productImage,
+    .productInfo {
+        flex: 1 1 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .productImage {
+        padding-right: 60px;
+    }
+}

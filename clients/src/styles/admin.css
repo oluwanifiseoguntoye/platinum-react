@@ -1,0 +1,43 @@
+.pageTitle {
+    margin-top: 50px;
+}
+
+.rowLabel {
+    text-transform: capitalize;
+}
+
+.columnInfo {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ECDC84;
+}
+
+.orderDelete {
+    background-color: none;
+    font-family: 'Alfa Slab One', cursive;
+    border: none;
+}
+
+table {
+   position: absolute;
+   text-align: center;
+   background: #f8f8ee;
+   color: #000;
+   width: 60%;
+}
+
+th, td {
+    padding: 5px 35px;
+}
+
+tr:nth-child(even) {
+    background-color: black;
+    color: #ECDC84;
+}
+
+.orderDisplay {
+    max-height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}

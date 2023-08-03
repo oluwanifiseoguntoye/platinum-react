@@ -1,0 +1,18 @@
+.adminLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginContainer {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+#username,
+#password {
+    margin-bottom: 15px;
+}
