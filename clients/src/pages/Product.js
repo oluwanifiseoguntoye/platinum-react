@@ -21,6 +21,7 @@ function Product() {
         <ProductDetail
           key={product.id}
           image={product.image}
+          backimage={product.backimage}
           name={product.name}
           information={product.information}
           price={product.price}

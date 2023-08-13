@@ -7,9 +7,20 @@
 
 
 .productImage {
-    flex: 1 1 40%;
+    flex: 1 1 50%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.showBackLink {
+    cursor: pointer;
+    margin-top: 10px; 
+    font-size: 16px;
+    margin-left: 60px ;
+    color: red;
+  }
 
 .productImage img {
     height: 400px;
