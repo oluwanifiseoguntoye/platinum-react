@@ -13,9 +13,3 @@
     height: 250px;
     width: 250px;
   }
-
-  @media (max-width: 480px) {
-    .navbar {
-      padding-right: 10px
-    }
-  }

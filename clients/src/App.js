@@ -15,7 +15,7 @@ import Adminlogin from './pages/AdminLogin'
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/">
         <Routes>
           <Route path="/" element={<Password />} />
           <Route path="/admin" element={<Admin />} />
