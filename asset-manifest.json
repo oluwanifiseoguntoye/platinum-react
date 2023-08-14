@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-platinum/static/css/main.400d3dae.css",
+    "main.js": "/react-platinum/static/js/main.5278a133.js",
+    "index.html": "/react-platinum/index.html",
+    "main.400d3dae.css.map": "/react-platinum/static/css/main.400d3dae.css.map",
+    "main.5278a133.js.map": "/react-platinum/static/js/main.5278a133.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.400d3dae.css",
+    "static/js/main.5278a133.js"
+  ]
+}
