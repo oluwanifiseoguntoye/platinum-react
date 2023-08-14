@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/platinum-react/static/css/main.400d3dae.css",
-    "main.js": "/platinum-react/static/js/main.2ed7fd41.js",
+    "main.js": "/platinum-react/static/js/main.b5a65207.js",
     "index.html": "/platinum-react/index.html",
     "main.400d3dae.css.map": "/platinum-react/static/css/main.400d3dae.css.map",
-    "main.2ed7fd41.js.map": "/platinum-react/static/js/main.2ed7fd41.js.map"
+    "main.b5a65207.js.map": "/platinum-react/static/js/main.b5a65207.js.map"
   },
   "entrypoints": [
     "static/css/main.400d3dae.css",
-    "static/js/main.2ed7fd41.js"
+    "static/js/main.b5a65207.js"
   ]
 }
