@@ -11,7 +11,7 @@ function Password() {
 
   const handlePasswordSubmit = (event) => {
     event.preventDefault();
-    if (password === 'ONEOFONE') {
+    if (password === '50s') {
       localStorage.setItem('authenticated', 'true');
       console.log('Authentication:', localStorage.getItem('authenticated'));
       navigate('/home');
